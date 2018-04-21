@@ -3,7 +3,7 @@
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
-require_once(dirname(__FILE__) . "/Security_Controller.php");
+require_once(APPPATH . "core/Security_Controller.php");
 
 // Guest_Controller is used for all views that are accessable by the Guest
 class Layout_Controller extends Security_Controller
